@@ -1,0 +1,16 @@
+<head>
+  <title>scrolling-bug</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <h1>Long Text Image List:</h1>
+  <div id="list">
+    {{#each items}}
+      <li class="image-item">{{text}}</li>
+    {{/each}}
+  </div>
+</template>
