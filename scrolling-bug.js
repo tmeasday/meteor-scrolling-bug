@@ -3,8 +3,7 @@ if (Meteor.isClient) {
     var list = [];
     _.times(500, function(i) {
       list.push({
-        text: 'I am item number ' + i + ' so there!', 
-        image: images[_.random(0, images.length -1)]
+        text: 'I am item number ' + i + ' so there!'
       });
     });
     
